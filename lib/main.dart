@@ -31,6 +31,11 @@ class _MyAppState extends State<MyApp>  with TickerProviderStateMixin {
       imageProvider: const NetworkImage('https://flutter'
           '.dev/docs/cookbook/img-files/effects/split-check/Avatar3.jpg'),
     ),
+    Customer(
+      name: 'Regina',
+      imageProvider: const NetworkImage('https://flutter'
+          '.dev/docs/cookbook/img-files/effects/split-check/Avatar1.jpg'),
+    ),
   ];
 
   final GlobalKey _draggableKey = GlobalKey();
